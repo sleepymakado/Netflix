@@ -171,6 +171,16 @@ border-bottom: 3px solid #3d3d3d;
     text-align: center;
 }
 
+.table {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    padding: 8rem;
+}
+
 /* Container */
 
 .container {
