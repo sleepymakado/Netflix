@@ -134,6 +134,10 @@ border-bottom: 3px solid #3d3d3d;
 	cursor: pointer;
 }
 
+.tab-border {
+    border-bottom: var(--primary-color) 4px solid;
+}
+
 
 /* Container */
 
