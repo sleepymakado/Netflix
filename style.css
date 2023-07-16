@@ -1,5 +1,6 @@
 :root{
     --primary-color: #e50914;
+    --dark-color: #141414;
 }
 
 *{
@@ -101,6 +102,16 @@ img {
     line-height: 1.25;
     margin: 0 0 2rem;
 }
+
+/*Tabs */
+.tabs {
+background:  var(--dark-color);
+padding-top:  1rem;
+border-bottom: 3px solid #3d3d3d;
+}
+
+
+
 /*Buttons */
 .btn {
     display: inline-block;
