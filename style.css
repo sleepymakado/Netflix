@@ -146,6 +146,19 @@ border-bottom: 3px solid #3d3d3d;
 
 }
 
+/* Hide Content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+	display: none;
+	opacity: 0;
+}
+
+.show {
+    display: block !important;
+}
+
+
 #tab-1-content .tab-1-content-inner {
     display:grid;
     grid-template-columns: repeat(2, 1fr);

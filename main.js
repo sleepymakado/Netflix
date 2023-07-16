@@ -7,10 +7,17 @@ function selectItem(e){
     removeBorder();
     //Add border to current tab
     this.classList.add('tab-border');
+    //Grab Content item from the DOM
+    const tabContentItem = document.querySelector('#${this.id}-content')
+    //Add show class
+    tabContentItems.classList.add('show');
 }
 
 function removeBorder(){
     tabItems.forEach(item => item.classList.remove('tab-border'));
+}
+function removeShow(){
+    tabContentItems.forEach(item => item.classList.remove('show'));
 }
 
 //Listen for tab click
