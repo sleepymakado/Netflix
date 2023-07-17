@@ -218,13 +218,14 @@ border-bottom: 3px solid #3d3d3d;
     overflow: auto;
 }
 
-.footer, .footer a {
+.footer, 
+.footer a {
     color: #999;
     font-size: 0.9rem;
 }
 
 .footer p {
-    margin-bottom: 1.5 rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer .footer-cols {
