@@ -253,7 +253,7 @@ border-right: none;
     padding: 0 2rem;
 }
 
-/* Text Classes */
+/* Text Styles */
 .text-xl {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -270,7 +270,7 @@ border-right: none;
 }
 
 
-text-center {
+.text-center {
     text-align: center;
 
 }
